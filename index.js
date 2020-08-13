@@ -110,7 +110,8 @@ function getLastReview(array) {
     return `${array[array.length-1].name} gave the restaurant a ${array[array.length-1].rating}, and their feedback was: ${array[array.length-1].feedback}`
   } 
 
-console.log (getLastReviews(reviews));
+console.log (getLastReview(reviews))
+
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
 
 /** STRETCH 1: Write a function called `getReviewByRating` that returns an array containing all reviews in a certain range. Your function should accept: 
